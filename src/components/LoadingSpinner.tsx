@@ -6,7 +6,7 @@ interface LoadingSpinnerProps {
 }
 
 export const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ 
-  message = "Generating your quiz..." 
+  message = "Generating your quiz.." 
 }) => {
   return (
     <div className="flex flex-col items-center justify-center p-8 space-y-4">
